@@ -33,7 +33,7 @@ body{
         &:last-child{
             border-bottom: 0;
         }
-        .infoList{
+        .firstCol{
             direction: rtl;
             img{
                 display: block;
@@ -48,6 +48,16 @@ body{
             }
             label{
              font-weight: normal;
+            }
+        }
+        .secondCol{
+            text-align: center;
+            p{
+                padding-top: 20px;
+                margin-bottom: 0;
+            }
+            img{
+                display: block;
             }
         }
     }

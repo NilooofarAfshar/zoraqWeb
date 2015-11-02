@@ -5823,17 +5823,24 @@ body {
   border-top: 0; }
   .infoCart .BorderList:last-child {
     border-bottom: 0; }
-  .infoCart .BorderList .infoList {
+  .infoCart .BorderList .firstCol {
     direction: rtl; }
-    .infoCart .BorderList .infoList img {
+    .infoCart .BorderList .firstCol img {
       display: block; }
-    .infoCart .BorderList .infoList time {
+    .infoCart .BorderList .firstCol time {
       display: block;
       margin-bottom: 0; }
-    .infoCart .BorderList .infoList p {
+    .infoCart .BorderList .firstCol p {
       font-weight: bold;
       margin-bottom: 0; }
-    .infoCart .BorderList .infoList label {
+    .infoCart .BorderList .firstCol label {
       font-weight: normal; }
+  .infoCart .BorderList .secondCol {
+    text-align: center; }
+    .infoCart .BorderList .secondCol p {
+      padding-top: 20px;
+      margin-bottom: 0; }
+    .infoCart .BorderList .secondCol img {
+      display: block; }
 
 /*# sourceMappingURL=myStyle.css.map */
