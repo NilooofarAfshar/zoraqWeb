@@ -5797,7 +5797,8 @@ button.close {
     display: none !important; } }
 /*header*/
 body {
-  background-color: #f4f4f4; }
+  background-color: #f4f4f4;
+  font-family: Tahoma; }
 
 .logoHear {
   padding-top: 10px;
@@ -5810,7 +5811,11 @@ body {
 .infoCart .headBox {
   background-color: #fff;
   border-color: #fff;
-  direction: rtl; }
+  direction: rtl;
+  padding-top: 20px;
+  padding-right: 40px;
+  font-size: 18px;
+  color: #3dbaf0; }
 .infoCart .BorderList {
   border-bottom: 1px solid #ddd;
   border-right: 0;
@@ -5818,5 +5823,17 @@ body {
   border-top: 0; }
   .infoCart .BorderList:last-child {
     border-bottom: 0; }
+  .infoCart .BorderList .infoList {
+    direction: rtl; }
+    .infoCart .BorderList .infoList img {
+      display: block; }
+    .infoCart .BorderList .infoList time {
+      display: block;
+      margin-bottom: 0; }
+    .infoCart .BorderList .infoList p {
+      font-weight: bold;
+      margin-bottom: 0; }
+    .infoCart .BorderList .infoList label {
+      font-weight: normal; }
 
 /*# sourceMappingURL=myStyle.css.map */
