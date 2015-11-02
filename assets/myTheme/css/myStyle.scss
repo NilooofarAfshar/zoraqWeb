@@ -1,0 +1,32 @@
+@import "../../stylesheets/bootstrap";
+
+
+/*header*/
+body{
+    background-color: #f4f4f4;
+}
+.logoHear{
+    padding-top: 10px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ebc081;
+    box-shadow: 0 0 10px #cfcfcf;
+    .logo{
+        margin-bottom: 10px;
+    }
+}
+.infoCart{
+    .headBox{
+        background-color: #fff;
+        border-color: #fff;
+        direction: rtl;
+    }
+    .BorderList{
+        border-bottom:1px solid #ddd;
+        border-right: 0;
+        border-left: 0;
+        border-top: 0;
+        &:last-child{
+            border-bottom: 0;
+        }
+    }
+}
