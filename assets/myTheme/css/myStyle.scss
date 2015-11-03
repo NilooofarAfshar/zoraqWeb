@@ -5,6 +5,7 @@
 body{
     background-color: #f4f4f4;
     font-family: Tahoma;
+    color: #585858;
 }
 .logoHear{
     padding-top: 10px;
@@ -30,6 +31,10 @@ body{
         border-right: 0;
         border-left: 0;
         border-top: 0;
+        margin-top:20px;
+        &:first-child{
+            margin-top: 0;
+        }
         &:last-child{
             border-bottom: 0;
         }
@@ -58,6 +63,24 @@ body{
             }
             img{
                 display: block;
+            }
+            label{
+                display: block;
+                font-weight: normal;
+            }
+        }
+        .thirdCol{
+            text-align: left;
+            time{
+                padding-top: 15px;
+                display: block;
+            }
+            p{
+                margin-bottom: 0;
+                font-weight: bold;
+            }
+            label{
+                font-weight: normal;
             }
         }
     }

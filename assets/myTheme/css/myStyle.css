@@ -5798,7 +5798,8 @@ button.close {
 /*header*/
 body {
   background-color: #f4f4f4;
-  font-family: Tahoma; }
+  font-family: Tahoma;
+  color: #585858; }
 
 .logoHear {
   padding-top: 10px;
@@ -5820,7 +5821,10 @@ body {
   border-bottom: 1px solid #ddd;
   border-right: 0;
   border-left: 0;
-  border-top: 0; }
+  border-top: 0;
+  margin-top: 20px; }
+  .infoCart .BorderList:first-child {
+    margin-top: 0; }
   .infoCart .BorderList:last-child {
     border-bottom: 0; }
   .infoCart .BorderList .firstCol {
@@ -5842,5 +5846,18 @@ body {
       margin-bottom: 0; }
     .infoCart .BorderList .secondCol img {
       display: block; }
+    .infoCart .BorderList .secondCol label {
+      display: block;
+      font-weight: normal; }
+  .infoCart .BorderList .thirdCol {
+    text-align: left; }
+    .infoCart .BorderList .thirdCol time {
+      padding-top: 15px;
+      display: block; }
+    .infoCart .BorderList .thirdCol p {
+      margin-bottom: 0;
+      font-weight: bold; }
+    .infoCart .BorderList .thirdCol label {
+      font-weight: normal; }
 
 /*# sourceMappingURL=myStyle.css.map */
