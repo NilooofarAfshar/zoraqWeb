@@ -17,12 +17,15 @@ body{
     }
 }
 .infoCart{
+    .firstInfo{
+        padding: 0 20px;
+    }
     .headBox{
         background-color: #fff;
         border-color: #fff;
         direction: rtl;
         padding-top: 20px;
-        padding-right: 40px;
+        padding-right: 20px;
         font-size: 18px;
         color: #3dbaf0;
     }
@@ -38,6 +41,9 @@ body{
         &:last-child{
             border-bottom: 0;
         }
+    }
+    .SummaryFlight{
+        direction: rtl;
         .firstCol{
             direction: rtl;
             img{
@@ -52,7 +58,7 @@ body{
                 margin-bottom: 0;
             }
             label{
-             font-weight: normal;
+                font-weight: normal;
             }
         }
         .secondCol{
@@ -83,5 +89,49 @@ body{
                 font-weight: normal;
             }
         }
+    }
+    .PriceDetails{
+        .firstCol{
+            text-align: left;
+            label{
+                display: block;
+                font-weight: normal;
+            }
+        }
+        .secondCol{
+            label{
+                display: block;
+                font-weight: normal;
+                color: #61c251;
+                direction: rtl;
+                text-align: left;
+            }
+        }
+    }
+    .totalPrice{
+        .firstCol{
+            label{
+                color: #3dbaf0;
+                font-weight: bold;
+            }
+        }
+        .secondCol{
+            label{
+                display: block;
+                font-weight: normal;
+                color: #61c251;
+                direction: rtl;
+                text-align: left;
+                font-size: 18px;
+                line-height: 30px;
+            }
+        }
+    }
+    /*first information header*/
+    .secondInfo{
+        .headBox{
+            padding-right: 40px;
+        }
+
     }
 }

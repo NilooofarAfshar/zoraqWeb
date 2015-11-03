@@ -5809,55 +5809,85 @@ body {
   .logoHear .logo {
     margin-bottom: 10px; }
 
-.infoCart .headBox {
-  background-color: #fff;
-  border-color: #fff;
-  direction: rtl;
-  padding-top: 20px;
-  padding-right: 40px;
-  font-size: 18px;
-  color: #3dbaf0; }
-.infoCart .BorderList {
-  border-bottom: 1px solid #ddd;
-  border-right: 0;
-  border-left: 0;
-  border-top: 0;
-  margin-top: 20px; }
-  .infoCart .BorderList:first-child {
-    margin-top: 0; }
-  .infoCart .BorderList:last-child {
-    border-bottom: 0; }
-  .infoCart .BorderList .firstCol {
+.infoCart {
+  /*first information header*/ }
+  .infoCart .firstInfo {
+    padding: 0 20px; }
+  .infoCart .headBox {
+    background-color: #fff;
+    border-color: #fff;
+    direction: rtl;
+    padding-top: 20px;
+    padding-right: 20px;
+    font-size: 18px;
+    color: #3dbaf0; }
+  .infoCart .BorderList {
+    border-bottom: 1px solid #ddd;
+    border-right: 0;
+    border-left: 0;
+    border-top: 0;
+    margin-top: 20px; }
+    .infoCart .BorderList:first-child {
+      margin-top: 0; }
+    .infoCart .BorderList:last-child {
+      border-bottom: 0; }
+  .infoCart .SummaryFlight {
     direction: rtl; }
-    .infoCart .BorderList .firstCol img {
-      display: block; }
-    .infoCart .BorderList .firstCol time {
-      display: block;
-      margin-bottom: 0; }
-    .infoCart .BorderList .firstCol p {
-      font-weight: bold;
-      margin-bottom: 0; }
-    .infoCart .BorderList .firstCol label {
-      font-weight: normal; }
-  .infoCart .BorderList .secondCol {
-    text-align: center; }
-    .infoCart .BorderList .secondCol p {
-      padding-top: 20px;
-      margin-bottom: 0; }
-    .infoCart .BorderList .secondCol img {
-      display: block; }
-    .infoCart .BorderList .secondCol label {
-      display: block;
-      font-weight: normal; }
-  .infoCart .BorderList .thirdCol {
+    .infoCart .SummaryFlight .firstCol {
+      direction: rtl; }
+      .infoCart .SummaryFlight .firstCol img {
+        display: block; }
+      .infoCart .SummaryFlight .firstCol time {
+        display: block;
+        margin-bottom: 0; }
+      .infoCart .SummaryFlight .firstCol p {
+        font-weight: bold;
+        margin-bottom: 0; }
+      .infoCart .SummaryFlight .firstCol label {
+        font-weight: normal; }
+    .infoCart .SummaryFlight .secondCol {
+      text-align: center; }
+      .infoCart .SummaryFlight .secondCol p {
+        padding-top: 20px;
+        margin-bottom: 0; }
+      .infoCart .SummaryFlight .secondCol img {
+        display: block; }
+      .infoCart .SummaryFlight .secondCol label {
+        display: block;
+        font-weight: normal; }
+    .infoCart .SummaryFlight .thirdCol {
+      text-align: left; }
+      .infoCart .SummaryFlight .thirdCol time {
+        padding-top: 15px;
+        display: block; }
+      .infoCart .SummaryFlight .thirdCol p {
+        margin-bottom: 0;
+        font-weight: bold; }
+      .infoCart .SummaryFlight .thirdCol label {
+        font-weight: normal; }
+  .infoCart .PriceDetails .firstCol {
     text-align: left; }
-    .infoCart .BorderList .thirdCol time {
-      padding-top: 15px;
-      display: block; }
-    .infoCart .BorderList .thirdCol p {
-      margin-bottom: 0;
-      font-weight: bold; }
-    .infoCart .BorderList .thirdCol label {
+    .infoCart .PriceDetails .firstCol label {
+      display: block;
       font-weight: normal; }
+  .infoCart .PriceDetails .secondCol label {
+    display: block;
+    font-weight: normal;
+    color: #61c251;
+    direction: rtl;
+    text-align: left; }
+  .infoCart .totalPrice .firstCol label {
+    color: #3dbaf0;
+    font-weight: bold; }
+  .infoCart .totalPrice .secondCol label {
+    display: block;
+    font-weight: normal;
+    color: #61c251;
+    direction: rtl;
+    text-align: left;
+    font-size: 18px;
+    line-height: 30px; }
+  .infoCart .secondInfo .headBox {
+    padding-right: 40px; }
 
 /*# sourceMappingURL=myStyle.css.map */
