@@ -1,4 +1,5 @@
 @import "../../stylesheets/bootstrap";
+@import "../font_awesome/font-awesome";
 
 
 /*header*/
@@ -6,6 +7,13 @@ body{
     background-color: #f4f4f4;
     font-family: Tahoma;
     color: #585858;
+}
+a{
+    color: #0099cc;
+    &:hover{
+        color: #0099cc;
+        text-decoration: none;
+    }
 }
 .logoHear{
     padding-top: 10px;
@@ -130,11 +138,132 @@ body{
     /*first information header*/
     .secondInfo{
         .headBox{
-            padding-right: 40px;
+            padding-right: 50px;
+            padding-bottom: 10px;
+        }
+        .backHeadInfo{
+            background-color: #fbf2e6;
+            width: 100%;
+            height: auto;
+            height: 20px;
+            margin-bottom: 10px;
+            .colHead{
+                label{
+                    direction: rtl;
+                    text-align: left;
+                }
+            }
+        }
+        .descriptionInfo{
+            p{
+                padding-left: 20px;
+                i{
+                    color: #cfcfcf;
+                    margin-right: 10px;
+                }
+                .secondPic{
+                    -ms-transform: rotate(90deg); /* IE 9 */
+                    -webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
+                    transform: rotate(90deg);
+                }
+            }
         }
         .headInfoFlight{
             background-color: #fbf2e6;
         }
+        .boxTime{
+            padding-top: 5px;
+            padding-bottom: 5px;
+            section{
+                padding: 10px;
+                border-left: 1px solid #cfcfcf;
+            }
+        }
+        .enterLine{
+            border: 0;
+            height: 1px;
+            background: #cfcfcf;
+            width: 95%;
+            display: block;
+            margin-left: 34px;
+            margin-bottom: 10px;
+        }
+        .stopFlight{
+            p{
+                padding-left: 20px;
+                i{
+                    color: #62c14f;
+                    margin-right: 10px;
+                }
+            }
+        }
+        .totalTime{
+            direction: rtl;
+            text-align: left;
+            margin-Bottom: 10px;
+        }
+        .completLine{
+            border: 0;
+            height: 1px;
+            background: #f5dfc0;
+            width: 96%;
+            display: block;
+            margin: auto;
+            margin-bottom: 10px;
+        }
 
+    }
+}
+.infoBuyer{
+    background-color: #f3efe8;
+    direction: rtl;
+    .sectionFisrt{
+        p{
+            padding-right: 10px;
+                i{
+                    color: #75c763;
+                }
+
+        }
+        .firstForm{
+            margin-top: 40px;
+            direction: ltr;
+            margin-bottom: 40px;
+            display: inline-block;
+            .input-group{
+                .input-group-btn{
+                    button{
+                        color:#0099cc;
+                        i{
+                            font-size: 19px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    h4{
+     color: #3dbaf0;
+        padding-right: 10px;
+        padding-top: 60px;
+    }
+    .lineStyleForm{
+        border: 0;
+        height: 1px;
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0));
+        margin: 0;
+    }
+    .sectionSecond{
+        margin-top: 25px;
+        p{
+            display: inline-block;
+            padding-right: 10px;
+            i{
+                color: #75c763;
+            }
+        }
+        .secondForm{
+            display: inline-block;
+        }
     }
 }
