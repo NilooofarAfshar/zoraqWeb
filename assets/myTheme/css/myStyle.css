@@ -7996,5 +7996,8 @@ a {
       padding-right: 10px; }
       .infoBuyer .sectionSecond p i {
         color: #75c763; }
+    .infoBuyer .sectionSecond .secondForm {
+      display: inline-block;
+      direction: ltr; }
 
 /*# sourceMappingURL=myStyle.css.map */
